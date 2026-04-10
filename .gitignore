@@ -16,10 +16,9 @@ venv/
 .idea/
 *.swp
 
-# Algorithm output — keep source images, ignore generated step results
-algo1/steps/
-algo2/steps/
-algo3/steps/
+# Generated results — ignore all algorithm outputs
+algo4/results/
+_archive/
 
 # Any generated output PNGs in root (intermediate checker outputs)
 *_nobg.png
