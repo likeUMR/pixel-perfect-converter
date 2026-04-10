@@ -1,6 +1,6 @@
-# Pixel Perfect Checker
+# Pixel Perfect Converter
 
-用于评估和修复 AI 生成的像素风格图片的工具集。
+将 AI 生成的像素风格图片转换为真正 pixel perfect 输出的工具集。
 
 ---
 
