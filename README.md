@@ -10,6 +10,10 @@ AI 大模型（如 Stable Diffusion、Flux、Midjourney 等）可以生成像素
 
 本工具的核心思路是：**通过预处理（传入参考网格图）+ 后处理（网格遵循度评估 + 像素完美修复）的 Mod 模式**，将大模型的生成能力转化为真正 pixel perfect 的输出，无需微调或训练。
 
+![处理效果对比](docs/preview.png)
+
+*从左到右：AI 原图（含网格线与抗锯齿）→ Pixel Perfect 修复版 → 透明背景 PNG → 迷你 64px 版（×8 放大展示）*
+
 ---
 
 ## 目录结构
